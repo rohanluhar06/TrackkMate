@@ -1,9 +1,12 @@
-body{
-    color:blue
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
 }
 .navbar{
     display: flex;
-    background-color: black;
+    background-color: #0f172a;
     justify-content: space-between;
     justify-items: flex-end;
     align-items: flex-end;
@@ -12,8 +15,8 @@ body{
 .INFO a{
     font-family: sans-serif;
     text-decoration: none;
-    color: darkgreen;
-    padding: 50px;
+    color: white;
+    padding: 75px;
 }
 .INFO{
     list-style: none;
@@ -33,4 +36,48 @@ body{
   text-transform: uppercase;
   display: inline-block;
 }
+.main-content{
+  font-family: 'Orbitron', sans-serif;
+  margin: 20px;
+  padding: 20px;
+  min-height: 200px;
+}
+ .blocks{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
 
+    .card {
+      background-color: #111827;
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card h3 {
+      color: #ffffff;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 24px;
+      font-weight: bold;
+      color: #22c55e;
+    }
+footer {
+      background-color: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+
+    footer span {
+      color: #22c55e;
+      font-weight: 600;
+    }

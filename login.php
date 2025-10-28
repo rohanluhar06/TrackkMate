@@ -1,10 +1,7 @@
 <?php
 session_start();
-
-// ✅ Use your actual MySQL password (or "" if using XAMPP default)
 $conn = new mysqli("localhost", "root", "ROHAN123", "trackkmate");
 
-// ✅ Always check connection
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }

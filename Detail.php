@@ -12,7 +12,7 @@
             <form METHOD="POST" action="login.php">
                 <h2>Login</h2>
                 <input type="email" name="email" placeholder="Email" required>
-                <input type="password" name="pass" placeholder="Password" required>
+                <input type="password" name="pgit ass" placeholder="Password" required>
                 <button type="submit" name="login">Login</button>
                 <p>Don't have an account? <a href="#" onclick="showForm('register-form')">Register</a></p>
             </form>
